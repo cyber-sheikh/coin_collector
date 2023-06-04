@@ -45,6 +45,7 @@ class MyGame(arcade.Window):
 
         # Set up the player
         self.player_sprite = arcade.Sprite("sprite_yusuf.png", SPRITE_SCALING_PLAYER)  # "Yusuf" by K. Cevik on MS Paint
+        # Salutations
         self.player_sprite.center_x = 50
         self.player_sprite.center_y = 50
         self.player_list.append(self.player_sprite)
